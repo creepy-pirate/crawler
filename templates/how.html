@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Channel Scraper Documentation</title>
+</head>
+<body>
+  <h1>YouTube Channel Scraper Documentation</h1>
+  
+  <h2>Getting Started</h2>
+  
+  <p>To run the YouTube Channel Scraper application locally, follow the steps below:</p>
+  
+  <ol>
+    <li>Install Python: Make sure you have Python installed on your system. You can download the latest version of Python from the official Python website: <a href="https://www.python.org">python.org</a>.</li>
+    
+    <li>Install Required Packages: Open a terminal or command prompt and navigate to the directory where the application code is located. Use the following command to install the required Python packages:</li>
+    
+    <pre><code>pip install flask requests beautifulsoup4</code></pre>
+    
+    <li>Run the Application: After installing the required packages, execute the following command in the terminal or command prompt to run the application:</li>
+    
+    <pre><code>python &lt;filename&gt;.py</code></pre>
+    
+    <p>Replace &lt;filename&gt; with the name of the Python file containing the application code.</p>
+    
+    <li>Access the Application: Open a web browser and visit <a href="http://localhost:5000">http://localhost:5000</a> to access the YouTube Channel Scraper application.</li>
+  </ol>
+  
+  <h2>Application Workflow</h2>
+  
+  <p>The YouTube Channel Scraper application follows the following workflow:</p>
+  
+  <ol>
+    <li>User Interface: The application provides a user interface where users can enter a search query and specify the number of results they want to scrape. Users can also choose to convert video links to channel links.</li>
+    
+    <li>Scraping Google Search Results: When the user submits the form, the application sends a request to the Google search engine with the specified query and retrieves the search results.</li>
+    
+    <li>Parsing Search Results: The application parses the HTML response received from Google and extracts the relevant links from the search results. It looks for channel links and video links to convert.</li>
+    
+    <li>Converting Video Links: If the user chooses to convert video links, the application extracts the video ID from each video link and uses the YouTube Data API to retrieve the corresponding channel ID. It constructs the channel link using the channel ID.</li>
+    
+    <li>Saving Results: The application saves the scraped results in both JSON and CSV formats. The JSON file contains the raw scraped data, while the CSV file contains the channel links.</li>
+    
+    <li>Download Page: After completing the scraping process, the application redirects the user to a download page where they can access the scraped data.</li>
+  </ol>
+  
+  <h2>Application Structure</h2>
+  
+  <p>The YouTube Channel Scraper application consists of the following files:</p>
+  
+  <ul>
+    <li>&lt;filename&gt;.py: This is the main Python file that contains the Flask application code and handles the routing and scraping logic.</li>
+    
+    <li>templates/index.html: This HTML template defines the user interface of the application. It includes a form where users can enter the search query and other options.</li>
+    
+    <li>templates/downloadPage.html: This HTML template displays a download link to the scraped data after the scraping process is complete.</li>
+    
+    <li>static/youtube_links.json: This JSON file contains the scraped data in a raw format.</li>
+    
+    <li>static/youtube_links.csv: This CSV file contains the channel links extracted from the scraped data.</li>
+  </ul>
+  
+  <h2>API and Libraries</h2>
+  
+  <p>The YouTube Channel Scraper application utilizes the following libraries and APIs:</p>
+  
+  <ul>
+    <li>Flask: Flask is a web framework for Python that simplifies the process of building web applications.</li>
+    
+    <li>Requests: Requests is a Python library for making HTTP requests. It is used to send requests to the Google search engine and retrieve the search results.</li>
+    
+    <li>BeautifulSoup: BeautifulSoup is a Python library for parsing HTML and XML documents. It is used to extract links from the search results HTML.</li>
+    
+    <li>YouTube Data API: The YouTube Data API provides programmatic access to YouTube's features and resources, including retrieving video information and channel details.</li>
+  </ul>
+  
+  <h2>Conclusion</h2>
+  
+  <p>The YouTube Channel Scraper is a web application that allows users to scrape YouTube search results and extract channel links. It provides a user-friendly interface for entering search queries and specifying the number of results to scrape. Users can also choose to convert video links to channel links. The application utilizes the Google search engine and the YouTube Data API to retrieve relevant search results and convert video links to channel links. The scraped data can be downloaded in JSON and CSV formats for further analysis.</p>
+</body>
+</html>
+
+key=AIzaSyAOrHxGgzR_U19AAUcn4IWyBAGgafvTKhw
+
