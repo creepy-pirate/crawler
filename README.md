@@ -14,7 +14,7 @@ https://drive.google.com/file/d/1VK-lgWU6s5wLTknT39aMCKLUQmHj33my/view?usp=shari
 
 
 Preview
-![App Screenshot](https://giphy.com/embed/gFiLRvCFIZvgQen3D0)
+![App Screenshot]([https://giphy.com/embed/gFiLRvCFIZvgQen3D0](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDEwYTkyZjk5MDU1YjQ2ZmRlZGM5NTVjZjhkMTZmMDNlMTU4ZGM5YiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/gFiLRvCFIZvgQen3D0/giphy.gif))
 
 
 
