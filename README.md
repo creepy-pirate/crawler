@@ -13,8 +13,8 @@ The YouTube Channel Scraper is a web application that allows users to scrape You
 https://drive.google.com/file/d/1VK-lgWU6s5wLTknT39aMCKLUQmHj33my/view?usp=sharing
 
 
-Preview
-(https://media.giphy.com/media/gFiLRvCFIZvgQen3D0/giphy.gif)
+![Alt Text](https://media.giphy.com/media/gFiLRvCFIZvgQen3D0/giphy.gif)
+
 
 
 
